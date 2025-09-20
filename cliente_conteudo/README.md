@@ -1,4 +1,7 @@
-# Case de Portfólio: Tracking de Engajamento de Vídeo
+
+![Imagem do projeto](home.png "Imagem do projeto")
+
+# Tracking de Engajamento de Vídeo
 
 Este projeto simula uma implementação de tracking avançado para um cliente fictício de mídia, o **"Tech Insider Blog"**. O objetivo é demonstrar a capacidade de rastrear interações complexas dentro de componentes de terceiros, como um player de vídeo do YouTube.
 

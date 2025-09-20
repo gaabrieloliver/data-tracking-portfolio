@@ -1,4 +1,6 @@
-# Case de Portfólio: Implementação de Tracking para Geração de Leads
+![Imagem do projeto](projeto.png "Imagem do projeto")
+
+# Implementação de Tracking para Geração de Leads
 
 Este projeto simula uma implementação de tracking para um cliente fictício do setor financeiro, a **"Consultoria Valor Real"**. O objetivo é demonstrar a capacidade de mensurar o engajamento e a conversão em uma landing page.
 

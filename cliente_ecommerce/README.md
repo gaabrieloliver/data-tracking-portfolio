@@ -1,4 +1,6 @@
-# Case de Portfólio: Implementação de Tracking para E-commerce
+![Imagem do projeto](ecommerce.png "Imagem do projeto")
+
+# Implementação de Tracking para E-commerce
 
 Este projeto simula uma implementação de tracking de dados para um cliente fictício do setor de games, a **"GameHub"**. O objetivo é demonstrar a capacidade de traduzir objetivos de negócio em uma solução técnica de coleta de dados robusta, focada no funil de vendas.
 

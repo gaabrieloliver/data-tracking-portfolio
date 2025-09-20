@@ -1,0 +1,152 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6.25rem;
+}
+
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.experiencia-texto {
+  font-family: "Inter regular", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 40ch; /* ch = caracteres */
+  margin-bottom: 60px;
+  color: #525252;
+}
+
+.experiencia-texto strong {
+  color: black;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.empresa::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-ano {
+  font-family: "Inter regular", sans-serif;
+  position: absolute;
+  top: 21px;
+  left: -100px;
+  color: #525252;
+  width: 80px;
+  text-align: right;
+}
+
+.empresa-titulo {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  font-family: "Inter regular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #525252;
+}
+
+.empresa-links {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.empresa-links > a {
+  text-decoration: none;
+  color: #141414;
+  background: linear-gradient(#b6f829, #67dd0a);
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.empresa-links > a:hover {
+  background: linear-gradient(#9de622, #57c406);
+  transform: scale(1.05);
+}
+
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-family: "Inter regular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #fff;
+  padding: 5px 10px;
+}
+
+@media (max-width:800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: inital;
+    text-align: left;
+  }
+}
+
+
+@media (max-width:400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+  
+  .empresa-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .empresa-links > a {
+    text-align: center;
+  }
+}
+
+
+
